@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f8f5f2;
+    color: #333;
+    font-family: "Oswald", sans-serif;
+}
+header{
+    background: #d4a373;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+nav {
+    z-index: 1000;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background: #e8c1a0;
+}
+nav a {
+    text-decoration: none;
+    color: #232323;
+    font-weight: bold;
+}
+.informacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.informacao img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+.informacao div button{
+    padding: 1rem 2rem;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #d4a373;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 0px 8px gray;
+    cursor: pointer;
+}
+.titulo{
+text-align: center;
+font-size: 30px;
+margin: 20px;
+text-decoration: underline;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.part-um{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding: 20px;
+}
+.part-dois{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding: 20px;
+
+}
+.cards-produto {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.cards-produto div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.cards-produto img {
+    max-width: 250px;
+    border-radius: 5px;
+}
+.cards-produto div button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d4a373;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.espelhoss{
+    width: 1000px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.espelhoss button{
+    padding: 1rem 2rem;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #d4a373;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 8px gray;
+    cursor: pointer;
+}
+.cards-produto-espelho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto{
+margin-top: 20px;
+height: 100%;
+width: auto;
+border-radius: 30px;
+box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+/*Animações*/
+
+.cards-produto:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.cards-produto div button:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.informacao div button:hover{
+    opacity: 90%;
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+nav a:hover{
+opacity: 80%;
+scale: 1.1;
+}
